@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Good Email Code",
   description: "Email code resources",
-  lastUpdated: true,
+  // lastUpdated: true,
   cleanUrls: true,
   base: '/goodemailcode.com/',
   head: [

@@ -37,7 +37,7 @@ For HTML email clients we can add `display: inline-block; width: 50px`.
 ## Vertical Spacer
 
 ```html
-<div style="line-height: 50px; height: 50px;">&#8202;</div>
+<div style="line-height: 50px; height: 50px">&#8202;</div>
 ```
 
 Again we need to insert a character, this time to have something for the `line-height` to respond to and stop the `<div>` from collapsing.
@@ -53,7 +53,7 @@ Note that if the `line-height` is less than the current `font-size`, then you'll
 ## Horizontal & Vertical Spacer
 
 ```html
-<i style="letter-spacing: 50px; mso-font-width: -100%; display: inline-block; width: 50px; font-size: 0px; mso-text-raise: 50px; height: 50px;">&#8202;</i>
+<i style="letter-spacing: 50px; mso-font-width: -100%; display: inline-block; width: 50px; font-size: 0px; mso-text-raise: 50px; height: 50px">&#8202;</i>
 ```
 
 This is mostly the same as the horizontal spacer but we're adding `mso-text-raise` to set the hight for Outlook, and using `font-size: 0px` to remove the additional height we would get from having the `&#8202;`. Finally, we're using `height` for all the HTML email clients.

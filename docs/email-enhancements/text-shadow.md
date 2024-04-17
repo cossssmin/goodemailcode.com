@@ -81,7 +81,7 @@ Inside this we set another `<div>` which will hold our text. We use the followin
 ### Text layer
 
 ```html
-<div  style="margin-right: 2px">
+<div style="margin-right: 2px">
   This is my heading
 </div>
 ```

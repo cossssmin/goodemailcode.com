@@ -23,7 +23,7 @@ When talking about design this could be referred to as a button because that's t
 ## The code
 
 ```html
-<a href="https://parcel.io" style="background-color: #005959; text-decoration: none; padding: .5em 2em; color: #FCFDFF; display: inline-block; border-radius: .4em; mso-padding-alt: 0; text-underline-color: #005959"><!--[if mso]><i style="mso-font-width: 200%; mso-text-raise: 100%" hidden>&emsp;</i><span style="mso-text-raise: 50%;"><![endif]-->My link text<!--[if mso]></span><i style="mso-font-width: 200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+<a href="https://example.com" style="background-color: #005959; text-decoration: none; padding: .5em 2em; color: #FCFDFF; display: inline-block; border-radius: .4em; mso-padding-alt: 0; text-underline-color: #005959"><!--[if mso]><i style="mso-font-width: 200%; mso-text-raise: 100%" hidden>&emsp;</i><span style="mso-text-raise: 50%;"><![endif]-->My link text<!--[if mso]></span><i style="mso-font-width: 200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
 ```
 
 There is quite a lot going on in here, if you want to just copy and paste the code you can. Editing the `href` and the colours should be pretty self explanatory however if you want to edit the padding then best to read up about that below.

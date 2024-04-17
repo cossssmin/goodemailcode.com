@@ -19,13 +19,13 @@ There are a large number of elements in HTML that can be used for text, I'm goin
 ## Headings and Paragraphs
 
 ```html
-<h1 style="margin: .67em 0; font-size:2em">Heading 1</h1>
-<h2 style="margin: .83em 0; font-size:1.5em">Heading 2</h2>
-<h3 style="margin: 1em 0; font-size:1.17em">Heading 3</h3>
-<h4 style="margin: 1.33em 0; font-size:1em">Heading 4</h4>
-<h5 style="margin: 1.67em 0; font-size:.83em">Heading 5</h5>
-<h6 style="margin: 2.33em 0; font-size:.67em">Heading 6</h6>
-<p style="margin: 1em 0;">Paragraph</p>
+<h1 style="margin: .67em 0; font-size: 2em">Heading 1</h1>
+<h2 style="margin: .83em 0; font-size: 1.5em">Heading 2</h2>
+<h3 style="margin: 1em 0; font-size: 1.17em">Heading 3</h3>
+<h4 style="margin: 1.33em 0; font-size: 1em">Heading 4</h4>
+<h5 style="margin: 1.67em 0; font-size: .83em">Heading 5</h5>
+<h6 style="margin: 2.33em 0; font-size: .67em">Heading 6</h6>
+<p style="margin: 1em 0">Paragraph</p>
 ```
 
 Not much you need to do here, but I do advise setting the `margin` and `font-size` if you want consistency. Most styles like `font-family` and `color` will inherit across all email clients for these elements so no need to reset those.

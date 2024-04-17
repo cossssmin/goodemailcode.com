@@ -39,7 +39,7 @@ Please note, Windows 10 Mail has a minimum width of `4`. If a lower value is set
 You can adjust the space around with a margin, either in long hand or short hand format. However Outlook on Windows doesn't support left/right margin when applied directly to the `<hr>`, so to get it working there we need to add the margin to a wrapping `<div>`:
 
 ```html
-<div style="margin:0 20px">
+<div style="margin: 0 20px">
   <hr style="margin: 50px 0; border-width: 0; background: #000; color: #000; height: 1em">
 </div>
 ```

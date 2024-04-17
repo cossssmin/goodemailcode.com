@@ -34,7 +34,7 @@ Yes, we can still keep semantic structure by wrapping our images in HTML.
 
 ```html
 <h1>
-  <img  src="heading.png"  alt="Is it ok to add text in images in email?">
+  <img src="heading.png" alt="Is it ok to add text in images in email?">
 </h1>
 ```
 

@@ -42,17 +42,17 @@ body[data-outlook-cycle] .image {
 
 ```html
 <div class="faux-absolute">
-	<!--[if mso]>
-	<v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="mso-width-percent: 1000; position: absolute; top: 80px; left: 16px;">
-	<v:textbox inset="0,0,0,0">
-	<![endif]-->
-	<div class="faux-position">
-		Faux Absolute Position content
-	</div>
-	<!--[if mso]>
-	</v:textbox>
-	</v:rect>
-	<![endif]-->
+  <!--[if mso]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="mso-width-percent: 1000; position: absolute; top: 80px; left: 16px;">
+  <v:textbox inset="0,0,0,0">
+  <![endif]-->
+  <div class="faux-position">
+    Faux Absolute Position content
+  </div>
+  <!--[if mso]>
+  </v:textbox>
+  </v:rect>
+  <![endif]-->
 </div>
 <img src="https://placekitten.com/600/400" alt="" class="image" style="width: 100%; max-width: 37.5em">
 ```
@@ -111,13 +111,13 @@ It's also important to set `display: inline-block` so these margins are placed a
 
 ```html
 <!--[if mso]>
-	<v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="mso-width-percent: 1000; position: absolute; top: 80px; left: 16px;">
-	<v:textbox inset="0,0,0,0">
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="mso-width-percent: 1000; position: absolute; top: 80px; left: 16px;">
+  <v:textbox inset="0,0,0,0">
 <![endif]-->
-	Faux Absolute Position content
+  Faux Absolute Position content
 <!--[if mso]>
-	</v:textbox>
-	</v:rect>
+  </v:textbox>
+  </v:rect>
 <![endif]-->
 ```
 

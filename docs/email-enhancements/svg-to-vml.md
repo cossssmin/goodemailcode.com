@@ -1,6 +1,13 @@
 ---
 title: SVG to VML
 description: How to manually convert an SVG image into a VML image.
+head:
+  - - meta
+    - property: og:title
+      content: SVG to VML
+  - - meta
+    - property: og:description
+      content: How to manually convert an SVG image into a VML image.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2021-09-28">28<sup>th</sup> September 2021</time></div>

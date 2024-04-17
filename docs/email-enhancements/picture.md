@@ -1,6 +1,13 @@
 ---
 title: Picture
 description:  How to use the picture element in an email.
+head:
+  - - meta
+    - property: og:title
+      content: Picture
+  - - meta
+    - property: og:description
+      content: How to use the picture element in an email.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2021-06-30">30<sup>th</sup> June 2021</time></div>

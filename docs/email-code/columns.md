@@ -1,6 +1,13 @@
 ---
 title: Columns
 description: A centered column to house all the email content.
+head:
+  - - meta
+    - property: og:title
+      content: Columns
+  - - meta
+    - property: og:description
+      content: A centered column to house all the email content.
 ---
 
 # Columns

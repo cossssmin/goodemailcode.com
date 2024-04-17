@@ -1,6 +1,13 @@
 ---
 title: Visually hidden text
 description: Text that is picked up by screen readers but doesn’t appear on screen.
+head:
+  - - meta
+    - property: og:title
+      content: Visually hidden text
+  - - meta
+    - property: og:description
+      content: Text that is picked up by screen readers but doesn’t appear on screen.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2023-03-07">7<sup>th</sup> March 2023</time></div>

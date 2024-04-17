@@ -1,6 +1,13 @@
 ---
 title: Using rem and em units in email
 description: How and why to use relative units in email.
+head:
+  - - meta
+    - property: og:title
+      content: Using rem and em units in email
+  - - meta
+    - property: og:description
+      content: How and why to use relative units in email.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2022-05-10">10<sup>th</sup> May 2022</time></div>

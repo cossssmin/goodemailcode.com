@@ -1,6 +1,13 @@
 ---
 title: ARIA landmarks in Email
 description: Which landmarks can we use in email, and how to use them.
+head:
+  - - meta
+    - property: og:title
+      content: ARIA landmarks in Email
+  - - meta
+    - property: og:description
+      content: Which landmarks can we use in email, and how to use them.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2022-02-07">7<sup>th</sup> February 2022</time></div>

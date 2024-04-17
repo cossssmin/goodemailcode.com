@@ -1,6 +1,13 @@
 ---
 title: Table layouts
 description: Why you should avoid using table layouts as much as possible.
+head:
+  - - meta
+    - property: og:title
+      content: Table layouts
+  - - meta
+    - property: og:description
+      content: Why you should avoid using table layouts as much as possible.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2023-08-01">1<sup>st</sup> August 2023</time></div>

@@ -1,6 +1,13 @@
 ---
 title: Base Template
 description: A base template to wrap all the email content in.
+head:
+  - - meta
+    - property: og:title
+      content: Base Template
+  - - meta
+    - property: og:description
+      content: A base template to wrap all the email content in.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2023-03-09">09<sup>th</sup> March 2023</time></div>

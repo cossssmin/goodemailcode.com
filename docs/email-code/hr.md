@@ -1,6 +1,13 @@
 ---
 title: Horizontal Rule
 description: A horizontal rule, used to separate sections of content.
+head:
+  - - meta
+    - property: og:title
+      content: Horizontal Rule
+  - - meta
+    - property: og:description
+      content: A horizontal rule, used to separate sections of content.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2022-01-24">24<sup>th</sup> January 2022</time></div>

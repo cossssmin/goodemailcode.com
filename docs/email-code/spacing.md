@@ -1,6 +1,13 @@
 ---
 title: Spacing
 description: Adding horizontal or vertical spacers between elements in email.
+head:
+  - - meta
+    - property: og:title
+      content: Spacing
+  - - meta
+    - property: og:description
+      content: Adding horizontal or vertical spacers between elements in email.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2022-03-01">1<sup>st</sup> March 2022</time></div>

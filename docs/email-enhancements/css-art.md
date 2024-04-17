@@ -1,6 +1,13 @@
 ---
 title: CSS Art
 description: Creating images with CSS.
+head:
+  - - meta
+    - property: og:title
+      content: CSS Art
+  - - meta
+    - property: og:description
+      content: Creating images with CSS.
 ---
 
 # CSS Art in email

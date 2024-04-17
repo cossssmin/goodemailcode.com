@@ -1,6 +1,13 @@
 ---
 title: CTA Link
 description: A link that is styled to look like a button.
+head:
+  - - meta
+    - property: og:title
+      content: CTA Link
+  - - meta
+    - property: og:description
+      content: A link that is styled to look like a button.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2023-04-20">20<sup>th</sup> April 2023</time></div>

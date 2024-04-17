@@ -1,6 +1,13 @@
 ---
 title: Text In Images
 description: Looking at some of the issues associated with including text in images.
+head:
+  - - meta
+    - property: og:title
+      content: Text In Images
+  - - meta
+    - property: og:description
+      content: Looking at some of the issues associated with including text in images.
 ---
 
 <div style="font-size: 12px">Last Updated: <time  datetime="2022-02-01">1<sup>st</sup> February 2022</time></div>

@@ -8,8 +8,8 @@ export default defineConfig({
   cleanUrls: true,
   base: '/goodemailcode.com/',
   head: [
-    ['link', { rel: 'icon', href: './favicon.ico', sizes: 'any' }],
-    ['link', { rel: 'icon', href: './favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { property: 'og:title', content: 'Good Email Code' }],
     ['meta', { property: 'og:description', content: 'Email code resources' }],
     ['meta', { property: 'og:url', content: 'https://goodemailcode.com/' }],

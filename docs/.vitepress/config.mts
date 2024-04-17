@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Email code resources",
   lastUpdated: true,
   cleanUrls: true,
+  base: '/goodemailcode.com/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // logo: '/logo.svg',

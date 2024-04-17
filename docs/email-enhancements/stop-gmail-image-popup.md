@@ -23,7 +23,7 @@ However if you want to stop it there are a few ways around this:
 
 **So what _can_ you do about it?**
 
-When chatting to [Jay](https://twitter.com/emailjay_) on [Twitter](https://twitter.com/M_J_Robbins/status/1276554228710989825) the other day about how they used the [faux absolute position](./email-enhancements/faux-absolute-position) technique in the [Email Weekly newsletter](http://emailweekly.co/), I realised that a simplified version of this technique could also be used to solve this Gmail issue.
+When chatting to [Jay](https://twitter.com/emailjay_) on [Twitter](https://twitter.com/M_J_Robbins/status/1276554228710989825) the other day about how they used the [faux absolute position](../email-enhancements/faux-absolute-position) technique in the [Email Weekly newsletter](http://emailweekly.co/), I realised that a simplified version of this technique could also be used to solve this Gmail issue.
 
 ## The Code
 
@@ -40,7 +40,7 @@ When chatting to [Jay](https://twitter.com/emailjay_) on [Twitter](https://twitt
 <div style="max-height: 0; max-width: 600px;">
 ```
 
-Here I'm setting the `max-height` to create the [faux absolute position](./email-enhancements/faux-absolute-position) effect. And setting `max-width` to match the width of the image we're covering.
+Here I'm setting the `max-height` to create the [faux absolute position](../email-enhancements/faux-absolute-position) effect. And setting `max-width` to match the width of the image we're covering.
 
 ### Inner `<div>` styles
 

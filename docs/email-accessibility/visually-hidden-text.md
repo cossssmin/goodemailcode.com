@@ -47,7 +47,7 @@ This is the same concept as we use in the [faux absolute position](../email-enha
 
 ### Windows Outlook
 
-The MSO Windows Outlook doesn't like any of this, however we can use some [MSO styles](email-enhancements/mso-styles) to fix it.
+The MSO Windows Outlook doesn't like any of this, however we can use some [MSO styles](../email-enhancements/mso-styles) to fix it.
 
 `mso-font-width: 0%;` removes horizontal size from Outlook, and squashes the text down to take up no space.
 

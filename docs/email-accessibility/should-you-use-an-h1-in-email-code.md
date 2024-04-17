@@ -1,0 +1,116 @@
+---
+title: Should you use an &lt;h1&gt; in email code?
+description: What are the possible issues.
+---
+
+<div style="font-size: 12px">Last Updated: <time datetime="2022-08-02">2<sup>nd</sup> August 2022</time></div>
+
+# Should you use an `<h1>` in email code?
+
+Short answer, yes. But don't force it if it doesn't fit.
+
+Long answer...
+
+I’m writing this following on from a couple of really interesting Twitter conversations that you can see [here]( https://twitter.com/Paul_Airy/status/1384824287945764866) and [here](https://twitter.com/M_J_Robbins/status/1385163970659721216).
+
+_The question is, should you use an `<h1>` in email code?_
+
+It’s recommended to only have one `<h1>` on a page, however if we include one in our email code there might also be one already in the webmail client.
+
+So there are a few questions here which I’m going to try and answer:
+
+* [Do Emails need headings?](#do-emails-need-headings)
+* [Which email clients add an `<h1>` to the content?](#which-email-clients-add-an-h1-to-the-content)
+* [Is it ok to have more than one `<h1>` on a page?](#is-it-ok-to-have-more-than-one-h1-on-a-page)
+* [Does an email count as part of the page?](#does-an-email-count-as-part-of-the-page)
+* [What benefits does an `<h1>` bring?](#what-benefits-does-an-h1-bring)
+* [What is the best option for screen reader users?](#what-is-the-best-option-for-screen-reader-users)
+* [Conclusion](#conclusion)
+
+## Do emails need headings?
+
+All structured content needs headings. If there are no headings, then there is no structure. Most marketing emails probably do need structure, we might want to talk about the thing we're marketing, talk about the benefits, features, options, etc.
+
+But not all emails need structure, if you are sending a couple of paragraphs of text with no clear heading, forcing one might confuse the reader.
+
+## Which email clients add an `<h1>` to the content?
+
+I ran some quick tests on webmail clients and found that most don’t add an `<h1>`:
+
+* Gmail
+* Outlook
+* Yahoo!
+* AOL
+* Freenet
+* mail.ru
+* Yandex
+* Rambler
+
+But there are a few that do:
+
+* La Poste - Adds an `<h1>` to the logo
+* 163.com - Adds an `<h1>` to the logo
+* Proton Mail - Adds an `<h1>` to the email subject line
+* web.de - - Adds 7 `<h1>` elements in the page using sectioning layout
+
+If/when I get more time I'll add to this list. Also please [let me know](https://github.com/M-J-Robbins/good-email-code/issues/new) if you have any more email clients to add.
+
+## Is it ok to have more than one `<h1>` on a page?
+
+The spec says only use one `<h1>` element per page.
+
+However when using [HTML sections and outlines](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines) the spec says you can use one `<h1>` per section.
+
+So problem solved? No. Unfortunately it also points out:
+
+> There are no implementations of the proposed outline algorithm in web browsers nor assistive technology
+
+So I think the conclusion here stays the same. Only one `<h1>` per page is preferable.
+
+## Does an email count as part of the page?
+
+Most webmail clients insert the code directly into the page so this certainly counts as part of the page. However, some webmail and most apps will insert the email in an `<iframe>`.
+
+When using an `<iframe>` the email keeps the `<head>` and `<body>` elements so I thought it might count as a separate page, however from some testing and reading this [Accessibility Developer Guide to external content in iframes](https://www.accessibility-developer-guide.com/examples/headings/iframes/#headings-in-iframes) I found:
+
+> Screen readers integrate headings from iframes directly into the heading outline of the parent page
+
+So the answer is yes. Assistive technology generally does count email content as part of the parent page, even if it’s in an `<iframe>`.
+
+## What benefits does an `<h1>` bring?
+
+The main benefit is that a screen reader user can navigate directly to the `<h1>` to find the start of the main content.
+
+If there are two `<h1>` elements it might be confusing, if there is no `<h1>` it might be confusing as well.
+
+## What is the best option for screen reader users?
+
+Really this is the only important question, what is best for the users?
+
+Doing a bit of research I found this [Webaim survey from 2017](https://webaim.org/projects/screenreadersurvey7/#heading) which asked 1792 screen reader users:
+
+***“Which of the following page heading structures is easiest for you?”***
+
+ * One first level heading that contains the site name - 6.6%
+ * One first level heading that contains the document title - 60.0%
+ * Two first level headings, one for the site name and one for the document title	33.3%
+
+Similar results were found in the [survey from 2010](https://webaim.org/projects/screenreadersurvey3/#headings).
+
+To me, this suggests that having the document tile as an `<h1>` is the most important thing. Users would rather not have the site name as an `<h1>` as well like  **La Poste** and **163**  do, but we can’t control that.
+
+## Conclusion
+
+There are only 4 email clients I've found (so far) where this is potentially an issue and their market share is small so adding an `<h1>` would only cause an issue for a small number of users whereas leaving it off will affect more users.
+
+Out of the 4 email clients that add `<h1>` two of them do it on the site title. The Webaim research suggests that in this case users would prefer a second `<h1>` for the document. So adding an `<h1>` is not an issue for these email clients.
+
+One of the email clients adds multiple `<h1>` elements anyway. Adding one more is not going to help things but I feel in this messy structure it does make sense to use `<h1>` so it stands up against the other content. But I’m not 100% confident on that.
+
+So:
+
+* one email client will benefit from not including an  `<h1>`
+* one email client I’m not sure which is best, but probably best to include it
+* all other email clients (I've looked at) are better off with an `<h1>`
+
+**Use an `<h1>` in your email code.**

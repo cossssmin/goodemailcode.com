@@ -10,10 +10,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
-    ['meta', { property: 'og:title', content: 'Good Email Code' }],
-    ['meta', { property: 'og:description', content: 'Email code resources' }],
-    ['meta', { property: 'og:url', content: 'https://goodemailcode.com/' }],
-    ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
     ['meta', { name: 'twitter:site', content: '@M_J_Robbins' }],
     ['meta', { name: 'twitter:creator', content: '@M_J_Robbins' }],
@@ -56,6 +52,9 @@ export default defineConfig({
         : `https://goodemailcode.com/${pageData.relativePath.replace('.md', '')}`
     }])    
   },
+  sitemap: {
+    hostname: 'https://goodemailcode.com'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // logo: '/logo.svg',
@@ -68,7 +67,6 @@ export default defineConfig({
       { text: 'Enhancements', link: '/email-enhancements/faux-absolute-position/' },
       { text: 'Accessibility', link: '/email-accessibility/rem-and-em/' },
     ],
-
     sidebar: [
       {
         text: 'Code',
@@ -109,7 +107,6 @@ export default defineConfig({
         ]
       },
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/M-J-Robbins/good-email-code' },
       { icon: 'twitter', link: 'https://twitter.com/M_J_Robbins' },

@@ -1,13 +1,6 @@
 ---
 title: CSS Triangles
 description: A triangle shape made with code to avoid using an image.
-head:
-  - - meta
-    - property: og:title
-      content: CSS Triangles
-  - - meta
-    - property: og:description
-      content: A triangle shape made with code to avoid using an image.
 ---
 
 # CSS triangles

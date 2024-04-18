@@ -1,13 +1,6 @@
 ---
 title: SVG in email
 description: Using embedded or external SVG's in an email.
-head:
-  - - meta
-    - property: og:title
-      content: SVG in email
-  - - meta
-    - property: og:description
-      content: Using embedded or external SVG's in an email.
 ---
 
 # SVG in email

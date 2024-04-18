@@ -1,13 +1,6 @@
 ---
 title: MSO styles
 description: Digging into Outlook specific CSS styles.
-head:
-  - - meta
-    - property: og:title
-      content: MSO styles
-  - - meta
-    - property: og:description
-      content: Digging into Outlook specific CSS styles.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2023-03-01">1<sup>st</sup> March 2023</time></div>

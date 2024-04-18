@@ -1,13 +1,6 @@
 ---
 title: Absolute Position
 description: "Replicating `position: absolute` to work across email clients."
-head:
-  - - meta
-    - property: og:title
-      content: Absolute Position
-  - - meta
-    - property: og:description
-      content: "Replicating `position: absolute` to work across email clients."
 ---
 
 # Faux Absolute Position

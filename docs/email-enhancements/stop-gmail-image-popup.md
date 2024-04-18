@@ -1,13 +1,6 @@
 ---
 title: Stopping Gmail image popups
 description:  How to block the Gmail image lightbox from popping up.
-head:
-  - - meta
-    - property: og:title
-      content: Stopping Gmail image popups
-  - - meta
-    - property: og:description
-      content: How to block the Gmail image lightbox from popping up.
 ---
 
 # Stopping Gmail image popup

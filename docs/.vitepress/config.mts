@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Good Email Code",
-  description: "Email code resources",
-  // lastUpdated: true,
+  title: 'Good Email Code',
+  description: 'Email code resources and examples for HTML email developers',
+  lang: 'en-GB',
   cleanUrls: true,
   base: '/goodemailcode.com/',
   head: [
@@ -18,6 +18,44 @@ export default defineConfig({
     ['meta', { name: 'twitter:site', content: '@M_J_Robbins' }],
     ['meta', { name: 'twitter:creator', content: '@M_J_Robbins' }],
   ],
+  transformPageData: (pageData) => {
+    pageData.frontmatter.head ??= []
+
+    const isHome = pageData.frontmatter.layout === 'home'
+
+    // <title> tag
+    pageData.frontmatter.head.push(['title',
+      {},
+      isHome
+        ? pageData.frontmatter.title
+        : `${pageData.frontmatter.title} | Good Email Code`
+    ])
+
+    // Open Graph meta tags
+    pageData.frontmatter.head.push(['meta', { 
+      property: 'og:title', 
+      content: isHome 
+        ? pageData.frontmatter.title
+        : `${pageData.frontmatter.title} | Good Email Code`
+    }])
+
+    pageData.frontmatter.head.push(['meta', { 
+      property: 'og:description', 
+      content: pageData.frontmatter.description 
+    }])
+
+    pageData.frontmatter.head.push(['meta', { 
+      property: 'og:type', 
+      content: isHome ? 'website' : 'article'
+    }])
+
+    pageData.frontmatter.head.push(['meta', { 
+      property: 'og:url', 
+      content: isHome
+        ? 'https://goodemailcode.com'
+        : `https://goodemailcode.com/${pageData.relativePath.replace('.md', '')}`
+    }])    
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // logo: '/logo.svg',

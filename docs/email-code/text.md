@@ -1,13 +1,6 @@
 ---
 title: Text
 description: Basic text elements.
-head:
-  - - meta
-    - property: og:title
-      content: Text
-  - - meta
-    - property: og:description
-      content: Basic text elements.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2022-03-10">10<sup>th</sup> March 2022</time></div>

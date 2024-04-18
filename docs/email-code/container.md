@@ -1,13 +1,6 @@
 ---
 title: Container
 description: Place multiple columns of content next to each other.
-head:
-  - - meta
-    - property: og:title
-      content: Container
-  - - meta
-    - property: og:description
-      content: Place multiple columns of content next to each other.
 ---
 
 # Container

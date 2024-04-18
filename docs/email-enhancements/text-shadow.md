@@ -1,13 +1,6 @@
 ---
 title: Text shadow
 description: Replicating text-shadow to work across email clients.
-head:
-  - - meta
-    - property: og:title
-      content: Text Shadow
-  - - meta
-    - property: og:description
-      content: Replicating text-shadow to work across email clients.
 ---
 
 <div style="font-size: 12px">Last Updated: <time  datetime="2022-03-08">8<sup>th</sup> April 2022</time></div>

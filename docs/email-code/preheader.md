@@ -1,13 +1,6 @@
 ---
 title: Preview Text
 description: Small preview text that shows in the inbox but not in the email.
-head:
-  - - meta
-    - property: og:title
-      content: Preview Text
-  - - meta
-    - property: og:description
-      content: Small preview text that shows in the inbox but not in the email.
 ---
 
 <div style="font-size: 12px">Last Updated: <time datetime="2023-03-09">09<sup>th</sup> March 2023</time></div>

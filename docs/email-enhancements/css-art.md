@@ -231,10 +231,7 @@ I found a picture of a Rickenbacker 4001 bass guitar online (I wanted to draw my
 
 To help with the drawing I set the photo as a background image on the frame and slowly added shapes on top of it (269 shapes to be exact), it's pretty much like tracing the image.
 
-<iframe height="800" style="width: 100%;" scrolling="no" title="Email CSS Drawing - Rickenbacker 4001 " src="https://codepen.io/M_J_Robbins/embed/ab39c5b4f2ea1f2a606e24c96ae936be?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/M_J_Robbins/pen/ab39c5b4f2ea1f2a606e24c96ae936be'>Email CSS Drawing - Rickenbacker 4001 </a> by Mark Robbins
-  (<a href='https://codepen.io/M_J_Robbins'>@M_J_Robbins</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<iframe src="https://parcel.io/embed/10182ab0-3eaf-4624-ab32-cbe275d35ae7?parts=html&default-part=html&preview-size=500&theme=parcel-dark&layout=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" scrolling="No" title="Subject goes here" loading="lazy" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts allow-popups-to-escape-sandbox" samesite=none secure=true onload="this.src=this.src+'#source='+window.location.href" > </iframe>
 
 ## Practical uses
 
@@ -268,10 +265,12 @@ You could create a graph using this technique and update the graphic automatical
 
 You can add hover or click styles to allow the user to interact with an image.
 
-**TBD demo iframe**
+<iframe src="https://parcel.io/embed/ed817a31-b846-48f8-8675-3c7aedf0a780?parts=html&default-part=html&preview-size=500&theme=parcel-dark&layout=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" scrolling="No" title="Subject goes here" loading="lazy" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts allow-popups-to-escape-sandbox" samesite=none secure=true onload="this.src=this.src+'#source='+window.location.href" > </iframe>
 
 ### Dark mode
 
 Because this is all done in code you can easily change the colours in the images based on `prefers-color-scheme`, or even change the image completely.
 
-**TBD demo iframe**
+Switch your system settings to dark mode and see the image change:
+
+<iframe src="https://parcel.io/embed/81c7c85d-2ba9-438f-b7fb-ae16ec8977a6?parts=html&default-part=html&preview-size=500&theme=parcel-dark&layout=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" scrolling="No" title="Subject goes here" loading="lazy" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts allow-popups-to-escape-sandbox" samesite=none secure=true onload="this.src=this.src+'#source='+window.location.href" > </iframe>

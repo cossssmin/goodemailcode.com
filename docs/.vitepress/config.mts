@@ -64,8 +64,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Code', link: '/email-code/template' },
-      { text: 'Enhancements', link: '/email-enhancements/faux-absolute-position/' },
-      { text: 'Accessibility', link: '/email-accessibility/rem-and-em/' },
+      { text: 'Enhancements', link: '/email-enhancements/faux-absolute-position' },
+      { text: 'Accessibility', link: '/email-accessibility/rem-and-em' },
     ],
     sidebar: [
       {
